@@ -803,6 +803,7 @@ body {
 }
 .modal-btn:hover,
 .modal-btn:focus {
+  fill: var(--color-light);
   background-color: var(--color-mod);
 }
 .modal-btn .close-btn:hover,
@@ -873,7 +874,6 @@ body {
   transition: border-color var(--cubic-);
 }
 .modal-text::placeholder {
-  text-transform: uppercase;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.33;
